@@ -1,0 +1,73 @@
+/* ==========================================================================
+   LUMINA CERAMICA - Design Tokens & Variables
+   Theme: Luxury Architectural Surfaces (Obsidian, Warm Stone, Champagne Gold)
+   ========================================================================== */
+
+:root {
+  /* Color Palette - Neutral Obsidian & Deep Slate */
+  --bg-primary: #0b0f17;
+  --bg-secondary: #121824;
+  --bg-tertiary: #1a2233;
+  --bg-card: rgba(22, 29, 44, 0.75);
+  --bg-card-hover: rgba(30, 40, 60, 0.85);
+  --bg-glass: rgba(18, 24, 36, 0.7);
+  --bg-light-tint: rgba(255, 255, 255, 0.04);
+  
+  /* Text & Surfaces */
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --text-dim: #64748b;
+  --text-inverse: #0b0f17;
+  
+  /* Luxury Gold Accents */
+  --gold-primary: #d4af37;
+  --gold-light: #f5e7a9;
+  --gold-dark: #a17f1a;
+  --gold-glow: rgba(212, 175, 55, 0.28);
+  --gold-gradient: linear-gradient(135deg, #f5e7a9 0%, #d4af37 50%, #997510 100%);
+  --gold-gradient-hover: linear-gradient(135deg, #ffffff 0%, #e8c85a 50%, #b38b19 100%);
+
+  /* Functional Accents */
+  --accent-emerald: #10b981;
+  --accent-emerald-bg: rgba(16, 185, 129, 0.12);
+  --accent-blue: #3b82f6;
+  --accent-blue-bg: rgba(59, 130, 246, 0.12);
+  --accent-amber: #f59e0b;
+  --accent-amber-bg: rgba(245, 158, 11, 0.12);
+  --accent-rose: #f43f5e;
+  --accent-rose-bg: rgba(244, 63, 94, 0.12);
+  --accent-violet: #8b5cf6;
+
+  /* Borders & Dividers */
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-light: rgba(255, 255, 255, 0.14);
+  --border-gold: rgba(212, 175, 55, 0.35);
+  --border-gold-focus: rgba(212, 175, 55, 0.7);
+
+  /* Shadows & Glows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.5);
+  --shadow-gold: 0 8px 30px rgba(212, 175, 55, 0.22);
+  --shadow-card: 0 10px 30px -5px rgba(0, 0, 0, 0.6), 0 0 1px 1px rgba(255, 255, 255, 0.05);
+
+  /* Typography */
+  --font-display: 'Cinzel', 'Playfair Display', Georgia, serif;
+  --font-body: 'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Layout & Spacing */
+  --container-max: 1360px;
+  --nav-height: 80px;
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bounce: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}

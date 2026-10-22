@@ -1,0 +1,13 @@
+{
+  "name": "lumina-ceramica-tiles",
+  "version": "1.0.0",
+  "description": "Luxury Tiles Architectural Surfaces Web Application with React Frontend and Express Backend",
+  "scripts": {
+    "server": "node server/server.js",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
+  },
+  "keywords": ["tiles", "luxury-tiles", "react", "porcelain", "architectural"],
+  "author": "LUMINA CERAMICA",
+  "license": "ISC"
+}
